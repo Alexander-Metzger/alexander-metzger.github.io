@@ -1,7 +1,7 @@
 document.getElementById('download-btn').addEventListener('click', function() {
     const link = document.createElement('a');
     
-    link.href = 'metzger-studio/manifest.pdf';  
+    link.href = 'manifest.pdf';  
     
     link.download = 'manifest.pdf';
     
