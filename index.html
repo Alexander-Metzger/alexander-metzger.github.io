@@ -1,35 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex's Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex's Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-   <div class="container">
+  <div class="container">
     <header>
-        <h1>Alexander Metzger</h1>
-        <p>Programmer | Linux Enthusiast | Middle Distance Runner</p>
-    </header>
-    <section id="about">
-        <h2>Who I am</h2>
-        <p>I'm Alex, I write some code here or there and I also enjoy running and science. </p>
+      <ul>
+        <h3><a href="about.html">About me</a></h3>
+        <h3><a href="books.html">Book Recommendations</h3>
+        <h3 title="Some workouts I like"><a href="workouts.html">Workouts</a></h3>
+      </ul>
 
+      <h1 title="That's me">Alexander Metzger &copy;</h1>
+      <p title="Fedora is love, Fedora is Live"> Programmer | Linux Enthusiast | Middle Distance Runner</p>
+    </header>
+
+    <section id="about">
+      <h2>Who I am</h2>
+      <p>I'm Alex, I write some code sometimes and I also enjoy <del>long distance</del> middle distance running and Free Software. I also try to get deeper into web development.</p>
     </section>
 
     <section id="portfolio">
-<h2>What do I do</h2>
-<p>I create Web 2.0 projects, I'm a privacy advocate and I am also into Linux. Feel free to contact me.</p>
-<p>E-Mail: alexander@metzger.studio</p>
+      <h2>What I do</h2>
+      <p>I create Web <sup>2.0</sup> projects, I'm a privacy advocate and I am also into Linux. Feel free to contact me.</p>
+      <p>E-Mail: alexander@metzger.studio</p>
     </section>
+
     <footer>
-        <button id="download-btn">Download Manifest</button>
-    </footer>
-   </div>
-   <script src="script.js"></script>
+        <div class="download-container">
+          <button id="download-btn">Download Manifest</button>
+        </div>
+
+        <div class="gifs-container">
+          <a href="https://grapheneos.org/" target="_blank">
+            <img class="propaganda" src="/home/alex/Code/metzger-studio/buttons/grapheneos.gif">
+          </a>
+          <a href="https://layer8.space/@reun9x" target="_blank">
+            <img class="propaganda" src="/home/alex/Code/metzger-studio/buttons/mastodon.gif" alt="mastodon">
+          </a>
+          <a href="https://github.com/Wuest3nFuchs/Degoogle" target="_blank">
+            <img class="propaganda" src="/home/alex/Code/metzger-studio/buttons/google_stand.gif" alt="google_stand">
+          </a>
+          <a href="https://www.getmonero.org" target="_blank">
+            <img class="propaganda" src="/home/alex/Code/metzger-studio/buttons/monero.gif">
+          </a>
+          <a href="https://www.gnu.org/distros/free-distros" target="_blank">
+            <img class="propaganda" src="/home/alex/Code/metzger-studio/buttons/gnu-linux.gif">
+          </a>
+          <a href="https://www.defectivebydesign.org/" target="_blank">
+            <img class="propaganda" src="/home/alex/Code/metzger-studio/buttons/dbd.gif">
+          </a>
+          <a href="https://www.marxists.org/archive/marx/works/download/pdf/Manifesto.pdf" target="_blank">
+            <img class="propaganda" src="/home/alex/Code/metzger-studio/buttons/KTV-banner88x31v1.gif">
+          </a>
+          <a href="https://nextcloud.com/" target="_blank">
+            <img class="propaganda" src="/home/alex/Code/metzger-studio/buttons/nextcloud.gif">
+          </a>
+          <a href="https://www.addameer.org/">
+            <img class="propaganda" src="/home/alex/Code/metzger-studio/buttons/standwith.png">
+          </a>
+          
+        </div>
+      </footer>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
-

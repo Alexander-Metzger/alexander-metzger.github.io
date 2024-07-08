@@ -41,14 +41,13 @@ h2 {
 }
 
 button {
-    background-color: 1f1f1f;
-    color: #e0e0e0;
+    background-color: #1f1f1f;
+    color: #ffffff;
     border: 2px solid #e0e0e0;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s, transform 0.3s;
-
 }
 
 button:hover {
@@ -59,5 +58,49 @@ button:hover {
 
 button:active {
     transform: scale(0.95);
+    margin-bottom: 20px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between the button and the GIFs container */
+}
+
+.download-container {
+    margin-bottom: 20px; /* Space between the button and the GIFs */
+}
+
+.gifs-container {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 10px; /* Space between the images */
+}
+
+.gifs-container .propaganda {
+    max-width: 100px; /* Set the maximum width for the images if needed */
+}
+
+.about-me-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header ul h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px 0;
+}
+
+header ul h3 a:hover {
+    color: black; 
+}
